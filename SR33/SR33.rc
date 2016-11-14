@@ -1,0 +1,131 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 242, 214
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "maxBot"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    RADIOBUTTON     "Enable",IDC_RADIO1,11,19,37,10
+    RADIOBUTTON     "Disable",IDC_RADIO2,54,19,34,10
+    GROUPBOX        "Client Hooking",IDC_STATIC,7,7,86,29
+    RADIOBUTTON     "Enable",IDC_RADIO3,11,63,37,10
+    RADIOBUTTON     "Disable",IDC_RADIO4,54,63,34,10
+    GROUPBOX        "Server Stats",IDC_STATIC,7,50,86,29
+    RADIOBUTTON     "Enable",IDC_RADIO5,11,106,37,10
+    RADIOBUTTON     "Disable",IDC_RADIO6,54,106,34,10
+    GROUPBOX        "Anaylzer",IDC_STATIC,7,93,86,29
+    GROUPBOX        "Plugin Management",IDC_STATIC,110,7,118,57
+    EDITTEXT        IDC_EDIT1,170,22,50,14,ES_AUTOHSCROLL
+    LTEXT           "Plugin Name:",IDC_STATIC,119,23,42,8
+    PUSHBUTTON      "Load",IDC_BUTTON1,180,43,40,14
+    PUSHBUTTON      "Unload",IDC_BUTTON2,119,43,40,14
+    RADIOBUTTON     "Enable",IDC_RADIO7,11,148,37,10
+    RADIOBUTTON     "Disable",IDC_RADIO8,54,148,34,10
+    GROUPBOX        "Injector",IDC_STATIC,7,136,86,29
+    GROUPBOX        "Loaded Plugins",IDC_STATIC,114,66,118,99
+    LISTBOX         IDC_LIST1,120,81,100,80,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Experimental project - maxBot",IDC_STATIC,69,177,103,8
+    LTEXT           "First full free bot from www.maxproject-online.net",IDC_STATIC,37,186,168,8
+    LTEXT           "Enjoy !",IDC_STATIC,107,194,26,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 207
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_FILE_EXIT
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

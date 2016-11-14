@@ -1,0 +1,178 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Croatian (unknown sub-lang: 0x5) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_BSB)
+#ifdef _WIN32
+LANGUAGE LANG_CROATIAN, 0x5
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 405, 270
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "maxBot UI"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Gold :",IDC_STATIC,17,53,22,8
+    LTEXT           "",IDC_SELMOB,245,23,100,8
+    LTEXT           "HP :",IDC_STATIC,17,38,20,11
+    LTEXT           "",IDC_MOBHP,227,36,81,8
+    LTEXT           "MP :",IDC_STATIC,17,83,16,8
+    GROUPBOX        "Character",IDC_STATIC,12,9,186,203
+    LTEXT           "",IDC_CHARNAME,56,22,110,8
+    LTEXT           "Level :",IDC_STATIC,17,67,28,8
+    LTEXT           "",IDC_CHARLEVEL,56,64,56,8
+    LTEXT           "",IDC_CHARGOLD,56,49,112,8
+    LTEXT           "",IDC_CHARHP,56,38,91,8
+    LTEXT           "",IDC_CHARMP,56,78,91,8
+    GROUPBOX        "Monster",IDC_STATIC,201,10,181,42
+    LTEXT           "Selected :",IDC_STATIC,207,23,35,8
+    LTEXT           "Inventory :",IDC_STATIC,17,98,43,9
+    LISTBOX         IDC_INVENTORY,19,110,168,97,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "HP :",IDC_STATIC,207,36,14,8
+    LTEXT           "Name :",IDC_STATIC,17,25,30,8
+    PUSHBUTTON      "Configure skills",IDC_CONFSKILLS,13,245,102,12
+    PUSHBUTTON      "Start bot",IDC_START,346,227,42,15
+    PUSHBUTTON      "Surrounding monsters",IDC_MOBSAROUND,117,245,102,12
+    PUSHBUTTON      "Stop bot",IDC_STOP,346,245,42,15,WS_DISABLED
+    PUSHBUTTON      "General settings",IDC_GENERAL,13,229,102,12
+    PUSHBUTTON      "Training area",IDC_AREA,117,229,102,12
+    PUSHBUTTON      "Pickup options",IDC_PICKUP,221,229,102,12
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,337,222,62,42
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,6,222,325,42
+    PUSHBUTTON      "Extra options",IDC_PICKUP2,222,245,102,12
+    EDITTEXT        IDC_EDIT1,204,156,188,56,ES_MULTILINE
+END
+
+IDD_SKILLDLG DIALOGEX 0, 0, 382, 275
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Skills"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_SKILLSLIST,16,29,118,199,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Skills list",IDC_STATIC,21,14,90,8
+    PUSHBUTTON      ">>",IDC_TOIMBUE,147,39,24,16
+    PUSHBUTTON      "<<",IDC_FROMIMBUE,147,58,24,16
+    PUSHBUTTON      ">>",IDC_TOATK,147,109,24,16
+    PUSHBUTTON      "<<",IDC_FROMATK,147,128,24,16
+    PUSHBUTTON      ">>",IDC_TOBUFF,147,180,24,16
+    PUSHBUTTON      "<<",IDC_FROMBUFF,147,199,24,16
+    LISTBOX         IDC_IMBUELIST,181,27,111,62,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_ATKLIST,181,96,111,62,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_BUFLIST,181,167,111,62,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "<- Imbue skills",IDC_STATIC,301,52,62,8
+    LTEXT           "<- Attack skills",IDC_STATIC,301,125,62,8
+    LTEXT           "<- Buffs",IDC_STATIC,301,196,62,8
+    LTEXT           "Add the skills you want to use here. Make sure to put each skill where it goes. For ex., don't put attack skill as a buff !",IDC_STATIC,149,5,215,18
+    PUSHBUTTON      "Save",IDC_SKILLSSAVE,140,241,99,18
+END
+
+IDD_MOBDLG DIALOGEX 0, 0, 417, 254
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Monsters"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_MOBLIST,13,23,141,217,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Monsters",IDC_STATIC,67,12,33,8
+    LISTBOX         IDC_MOBCOORDS,167,23,59,217,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Coordinates",IDC_STATIC,175,12,44,8
+    LTEXT           "Distance",IDC_STATIC,264,12,32,8
+    LISTBOX         IDC_MOBDIST,242,23,74,217,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Mob IDs",IDC_STATIC,351,13,32,8
+    LISTBOX         IDC_MOBIDS,329,23,74,217,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 398
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 263
+    END
+
+    IDD_SKILLDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 375
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 268
+    END
+
+    IDD_MOBDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 410
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 247
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Croatian (unknown sub-lang: 0x5) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

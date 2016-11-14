@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SR33">
+</Property><Property Name="Solution File" Value="D:\Ahmed\2008, 2009, 2010, 2011\dir0000.chk\Programming\maxBot\source\SR33.sln">
+</Property><Property Name="Date" Value="5. septembar 2013">
+</Property><Property Name="Time" Value="10:45">
+</Property></Properties><Event ErrorLevel="0" Project="SR33" Source="SR33\SR33.vcproj" Description="Converting project file 'D:\Ahmed\2008, 2009, 2010, 2011\dir0000.chk\Programming\maxBot\source\SR33\SR33.vcproj'.">
+</Event><Event ErrorLevel="1" Project="SR33" Source="SR33\SR33.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="SR33" Source="SR33\SR33.vcproj" Description="Done converting to new project file 'D:\Ahmed\2008, 2009, 2010, 2011\dir0000.chk\Programming\maxBot\source\SR33\SR33.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="SR33" Source="SR33\SR33.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Detour" Source="Detour\Detour.vcproj" Description="Converting project file 'D:\Ahmed\2008, 2009, 2010, 2011\dir0000.chk\Programming\maxBot\source\Detour\Detour.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Detour" Source="Detour\Detour.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Detour" Source="Detour\Detour.vcproj" Description="Done converting to new project file 'D:\Ahmed\2008, 2009, 2010, 2011\dir0000.chk\Programming\maxBot\source\Detour\Detour.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Detour" Source="Detour\Detour.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Demo.vcproj" Description="Converting project file 'D:\Ahmed\2008, 2009, 2010, 2011\dir0000.chk\Programming\maxBot\source\Demo\Demo.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Demo" Source="Demo\Demo.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Demo" Source="Demo\Demo.vcproj" Description="Done converting to new project file 'D:\Ahmed\2008, 2009, 2010, 2011\dir0000.chk\Programming\maxBot\source\Demo\Demo.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Demo" Source="Demo\Demo.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DumpImageCode" Source="DumpImageCode\DumpImageCode.vcproj" Description="Converting project file 'D:\Ahmed\2008, 2009, 2010, 2011\dir0000.chk\Programming\maxBot\source\DumpImageCode\DumpImageCode.vcproj'.">
+</Event><Event ErrorLevel="1" Project="DumpImageCode" Source="DumpImageCode\DumpImageCode.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="DumpImageCode" Source="DumpImageCode\DumpImageCode.vcproj" Description="Done converting to new project file 'D:\Ahmed\2008, 2009, 2010, 2011\dir0000.chk\Programming\maxBot\source\DumpImageCode\DumpImageCode.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="DumpImageCode" Source="DumpImageCode\DumpImageCode.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ServerStats" Source="ServerStats\ServerStats.vcproj" Description="Converting project file 'D:\Ahmed\2008, 2009, 2010, 2011\dir0000.chk\Programming\maxBot\source\ServerStats\ServerStats.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ServerStats" Source="ServerStats\ServerStats.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ServerStats" Source="ServerStats\ServerStats.vcproj" Description="Done converting to new project file 'D:\Ahmed\2008, 2009, 2010, 2011\dir0000.chk\Programming\maxBot\source\ServerStats\ServerStats.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ServerStats" Source="ServerStats\ServerStats.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Injector" Source="Injector\Injector.vcproj" Description="Converting project file 'D:\Ahmed\2008, 2009, 2010, 2011\dir0000.chk\Programming\maxBot\source\Injector\Injector.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Injector" Source="Injector\Injector.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Injector" Source="Injector\Injector.vcproj" Description="Done converting to new project file 'D:\Ahmed\2008, 2009, 2010, 2011\dir0000.chk\Programming\maxBot\source\Injector\Injector.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Injector" Source="Injector\Injector.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Analyzer" Source="Analyzer\Analyzer.vcproj" Description="Converting project file 'D:\Ahmed\2008, 2009, 2010, 2011\dir0000.chk\Programming\maxBot\source\Analyzer\Analyzer.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Analyzer" Source="Analyzer\Analyzer.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Analyzer" Source="Analyzer\Analyzer.vcproj" Description="Done converting to new project file 'D:\Ahmed\2008, 2009, 2010, 2011\dir0000.chk\Programming\maxBot\source\Analyzer\Analyzer.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Analyzer" Source="Analyzer\Analyzer.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Plugin" Source="Plugin\Plugin.vcproj" Description="Converting project file 'D:\Ahmed\2008, 2009, 2010, 2011\dir0000.chk\Programming\maxBot\source\Plugin\Plugin.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Plugin" Source="Plugin\Plugin.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Plugin" Source="Plugin\Plugin.vcproj" Description="Done converting to new project file 'D:\Ahmed\2008, 2009, 2010, 2011\dir0000.chk\Programming\maxBot\source\Plugin\Plugin.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Plugin" Source="Plugin\Plugin.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SR33.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SR33.sln" Description="Converted">
+</Event></UpgradeLog>
